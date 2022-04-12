@@ -19,11 +19,11 @@
     <div class="city-search p-2">
         <div class="row">
             <div class="col-lg-3 bg-light">
-                <h5 class="mt-1">Search a City:</h5>
+                <h5 class="mt-1">Search for a City:</h5>
                 <div class="input-group mb-3">
-                    <input id="type-city" type="text" class="form-control" placeholder="Enter a city" aria-label="Enter a city">
+                    <input id="enter-city" type="text" class="form-control" placeholder="Enter a city" aria-label="Enter a city">
                     <div class="input-group-append">
-                        <button class="btn btn-primary" type="button" id="search-button">
+                        <button class="btn btn-primary" type="button" id="search-button">search
                             <i class="fas fa-search"></i>
                         </button>
                     </div>
@@ -33,10 +33,10 @@
             </div>
             <div class="col-lg-9">
                 <div class="row mr-0">
-                    <div class="col-lg-11 card m-3 d-none" id="weather-now">
+                    <div class="col-lg-11 card m-3 d-none" id="today-weather">
                         <div class="card-body">
                             <h3 id="city-name" class="city-name align-middle"></h3>
-                            <img id="picture-now" alt="">
+                            <img id="current-pic" alt="">
                             <p id="temperature"></p>
                             <p id="humidity"></p>
                             <p id="wind-speed"></p>
@@ -46,7 +46,7 @@
                 </div>
                 <div class="row d-none" id="fiveday-header">
                     <div class="col-12">
-                        <h3>5 Day Forecast</h3>
+                        <h3>5-Day Forecast</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -65,4 +65,3 @@
 </body>
 
 </html>
-                
